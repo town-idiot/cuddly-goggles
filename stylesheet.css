@@ -21,6 +21,8 @@ li {
   background-size:cover;
   color: black;
   text-align: center;
+  position:relative;
+  margin-bottom: -20px;
 }
 
 .top-wrapper h1 {
@@ -116,6 +118,7 @@ header {
 
 .gambar {
   width:180px;
+  padding-top: 20px;
 }
 
 .contents h3 {
@@ -138,7 +141,14 @@ header {
 .footer-list li {
   line-height: 2;
   padding: 0 40px;
+}
 
+.footer-list a {
+  color:white;
+}
+
+.footer-list a:hover {
+  color: #54a0ff;
 }
 
 .footer {
