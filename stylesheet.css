@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.top-wrapper {
+  background-image: url(https://cdn.dribbble.com/users/637758/screenshots/3662491/busy_bee_.jpg);
+  padding: 180px 0 100px 0;
+  background-size:cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  font-weight: bold;
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: #222f3e;
+  position: fixed;
+  z-index: 10;
+  display: block;
+}
+
+.header-logo {
+  float:left;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 20px 40px;
+}
+
+.header-right {
+  float:right;
+}
+
+.header-right a {
+  color:white;
+  float: left;
+  line-height: 90px;
+  padding: 0 25px;
+}
+
+.header-right a:hover {
+  background-color: #576574;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin: 5px 0;
+}
+
+.seemore {
+  background-color: #ff6b6b;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.contents {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  height: 550px;
+}
+
+
+.content {
+  width: 25%;
+  float: left;
+}
+
+.gambar {
+  width:180px;
+}
+
+.contents h3 {
+  padding-bottom: 30px;
+  padding-top: 80px;
+  border-bottom: 2px solid #576574;
+}
+
+.footer-logo {
+  float:left;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 25px 40px;
+
+}
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  line-height: 2;
+  padding: 0 40px;
+
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  height: 100px;
+}
+
+input, textarea {
+  width:400px;
+  margin-top:5px;
+  margin-bottom:15px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-form {
+  padding: 70px 80px;
+}
+
+.contact-submit {
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.contact-form p {
+  margin: 8px 0;
+}
