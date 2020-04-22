@@ -1,0 +1,61 @@
+/* for Tablet */
+@media (max-width: 1000px) {
+  * {
+      box-sizing: border-box;
+    }
+
+  .content {
+    width: 50%;
+    margin-bottom:5px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .top-wrapper p {
+    font-size: 24px;
+  }
+
+
+}
+
+/* for Smartphone */
+@media (max-width: 670px) {
+
+  .content {
+    width: 100%;
+  }
+
+  .content p {
+    padding-bottom:20px;
+
+  }
+
+  .top-wrapper h1 {
+    font-size: 35px;
+  }
+
+  .top-wrapper p {
+    font-size: 18px;
+  }
+
+  .contact-form {
+    float:left;
+    padding: 25px 10px;
+  }
+
+  input, textarea {
+    width:90%;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block ;
+  }
+
+
+}
