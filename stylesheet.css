@@ -15,6 +15,11 @@ li {
   list-style: none;
 }
 
+.clear {
+  clear:left;
+}
+
+
 .top-wrapper {
   background-image: url(https://cdn.dribbble.com/users/637758/screenshots/3662491/busy_bee_.jpg);
   padding: 180px 0 100px 0;
@@ -26,13 +31,16 @@ li {
 }
 
 .top-wrapper h1 {
-  font-size: 45px;
+  text-shadow:1px 1px 2px white;
+  font-size: 50px;
   letter-spacing: 3px;
   margin-bottom: 10px;
 }
 
 .top-wrapper p {
   font-weight: bold;
+  text-shadow:1px 1px 2px white;
+  font-size: 25px;
 }
 
 header {
@@ -42,6 +50,8 @@ header {
   position: fixed;
   z-index: 10;
   display: block;
+  top: 0;
+  overflow: hidden;
 }
 
 .header-logo {
@@ -56,6 +66,10 @@ header {
   float:right;
 }
 
+.header-right a:hover {
+  background-color: #576574;
+}
+
 .header-right a {
   color:white;
   float: left;
@@ -63,8 +77,12 @@ header {
   padding: 0 25px;
 }
 
-.header-right a:hover {
-  background-color: #576574;
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
 .container {
@@ -73,7 +91,6 @@ header {
   padding: 0 15px;
   margin: 0 auto;
 }
-
 
 .btn-wrapper {
   text-align: center;
@@ -103,25 +120,28 @@ header {
 
 .contents {
   padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: #f7f7f7;
   text-align: center;
-  height: 550px;
 }
-
 
 .content {
   width: 25%;
   float: left;
 }
 
-.gambar {
-  width:180px;
-  padding-top: 20px;
+.content p {
+  padding-top:15px;
+  font-weight:bold;
 }
 
-.contents h3 {
+.gambar {
+  width:180px;
+  padding-top: 30px;
+}
+
+.heading h3 {
   padding-bottom: 30px;
   padding-top: 80px;
   border-bottom: 2px solid #576574;
@@ -132,29 +152,15 @@ header {
   font-size: 36px;
   font-weight: bold;
   padding: 25px 40px;
-
-}
-.footer-list {
-  float: right;
-}
-
-.footer-list li {
-  line-height: 2;
-  padding: 0 40px;
-}
-
-.footer-list a {
-  color:white;
-}
-
-.footer-list a:hover {
-  color: #54a0ff;
 }
 
 .footer {
   background-color: black;
+  width:100%;
   color: #fff;
   height: 100px;
+  display:inline-block;
+  margin-bottom: -10px;
 }
 
 input, textarea {
@@ -168,6 +174,8 @@ input, textarea {
 
 .contact-form {
   padding: 70px 80px;
+  position:relative;
+  text-align:center;
 }
 
 .contact-submit {
@@ -181,6 +189,7 @@ input, textarea {
   padding-bottom: 15px;
   margin-bottom: 50px;
 }
+
 .contact-form p {
-  margin: 8px 0;
+  padding-bottom: 5px;
 }
